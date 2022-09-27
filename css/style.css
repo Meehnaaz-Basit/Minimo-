@@ -1,0 +1,246 @@
+/**** fonts ****/
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face {
+  font-family: PlayfairDisplay-Italic;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+}
+@font-face {
+  font-family: PlayfairDisplay-Bold;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+@font-face {
+  font-family: PlayfairDisplay-Black;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Black.otf);
+}
+@font-face {
+  font-family: Ubuntu-L;
+  src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* *** common start *** */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: PlayfairDisplay-Regular;
+  font-weight: 16px;
+  color: #626262;
+}
+/* ******header section ****** */
+header {
+  padding: 80px 0 60px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 12%;
+}
+.logo a {
+}
+.logo a img {
+  width: 100%;
+}
+.nav-bar {
+}
+.nav-bar ul {
+}
+.nav-bar ul li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 80px;
+}
+.nav-bar ul li a {
+  padding: 2px 2px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.nav-bar ul li a:hover {
+  border-top: 1px solid #626262;
+  border-bottom: 1px solid #626262;
+  transition: 0.3s;
+}
+/* **** banner section **** */
+.banner {
+  padding: 50px 0px;
+}
+.banner-img {
+  width: 100%;
+}
+.banner-img img {
+  width: 100%;
+}
+/* **** description section **** */
+.description {
+  padding: 40px 0px;
+}
+.container2 {
+  width: 72%;
+  margin: 0 auto;
+}
+.content {
+}
+.content h4,
+.blog h4 {
+  font-family: Ubuntu-L;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #b4ad9e;
+}
+.content h1,
+.blog h1,
+.newsletter h1 {
+  padding: 25px 0px;
+  word-spacing: 1px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.content p,
+.blog p {
+  line-height: 26px;
+  word-spacing: 3px;
+}
+.content h4 a {
+  color: #b4ad9e;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 60px;
+}
+/* **** blog section **** */
+.blogs {
+  padding: 50px 0px;
+}
+.blog-content {
+  display: grid;
+  grid-template-columns: 46% 46%;
+  justify-content: space-between;
+}
+.blog {
+  padding: 60px 0px;
+}
+.blog1 {
+}
+.blog h4 {
+  padding-top: 30px;
+}
+.blog-img {
+  width: 100%;
+}
+.blog-img img {
+  width: 100%;
+}
+/* **** newsletter **** */
+.newsletter {
+  padding: 100px 0px;
+  background-color: #f0f0f0;
+}
+.signup-form {
+  text-align: center;
+}
+.form {
+  width: 310px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.form form {
+  position: relative;
+}
+.form input {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid black;
+  font-family: PlayfairDisplay-Regular;
+  font-size: 14px;
+  font-weight: 300;
+  color: #626262;
+  width: 100%;
+  padding: 8px 44px 8px 10px;
+}
+.form input:focus {
+  outline: 0;
+}
+.form button {
+  border: none;
+  position: absolute;
+  top: 25%;
+  right: 6px;
+  background: transparent;
+  cursor: pointer;
+}
+.form button img {
+  width: 100%;
+}
+/* **** button **** */
+.btn {
+  text-align: center;
+  padding: 120px 0px;
+}
+.btn button {
+  padding: 18px 30px;
+  font-family: PlayfairDisplay-Regular;
+  font-size: 20px;
+  font-weight: 300;
+  color: #626262;
+  background-color: transparent;
+  border: 1px solid #626262;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #626262;
+  color: white;
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+/* ***** footer **** */
+footer {
+  padding: 40px 0px;
+  background-color: #f0f0f0;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-info ul {
+}
+.footer-info ul li {
+  list-style: none;
+  display: inline-block;
+}
+.footer-info ul li a {
+  font-family: PlayfairDisplay-Regular;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  padding: 0px 15px;
+}
+.footer-left {
+}
+.footer-middle p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #8e8d8d;
+}
+.footer-middle p span {
+  font-weight: 700;
+  color: #626262;
+}

@@ -1,0 +1,297 @@
+/* 
+  ##Device = Desktops,xxl
+
+*/
+
+@media (min-width: 1400px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops,xl
+    
+  */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = lg
+    
+  */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets
+    
+  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS */
+  header {
+    padding: 40px 0;
+  }
+  .logo {
+    width: 80px;
+  }
+  .nav-bar ul li {
+    padding-left: 18px;
+  }
+  .nav-bar ul li a {
+    font-size: 12px;
+  }
+  /* banner */
+  .banner {
+    padding: 20px 0px;
+  }
+  /* **** description section **** */
+  .description {
+    padding: 30px 0px;
+  }
+  .content h4,
+  .blog h4 {
+    font-size: 12px;
+  }
+  .content h1,
+  .blog h1,
+  .newsletter h1 {
+    padding: 18px 0px;
+    font-size: 18px;
+  }
+  .content p,
+  .blog p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .content h4 a {
+    padding-top: 40px;
+  }
+  /* **** blog section **** */
+  .blogs {
+    padding: 20px 0px;
+  }
+  .blog-content {
+    display: grid;
+    grid-template-columns: 46% 46%;
+  }
+  .blog {
+    padding: 30px 0px;
+  }
+  /* **** newsletter **** */
+  .newsletter {
+    padding: 40px 0px;
+    background-color: #f0f0f0;
+  }
+  .form {
+    width: 250px;
+  }
+  /* **** button **** */
+  .btn {
+    text-align: center;
+    padding: 80px 0px;
+  }
+  .btn button {
+    padding: 14px 28px;
+    font-size: 14px;
+  }
+  footer {
+    padding: 20px 0px;
+  }
+  .footer-info ul li a {
+    font-size: 12px;
+    padding: 0px 7px;
+  }
+
+  .footer-middle p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer-right ul li a img {
+    width: 40%;
+  }
+}
+
+/* 
+    ##Device = Mobiles (Landscape),sm
+    
+  */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* CSS */
+  header {
+    padding: 30px 0;
+  }
+  .logo {
+    width: 80px;
+  }
+  .nav-bar ul li {
+    padding-left: 14px;
+  }
+  .nav-bar ul li a {
+    font-size: 10px;
+  }
+  /* banner */
+  .banner {
+    padding: 20px 0px;
+  }
+  /* **** description section **** */
+  .description {
+    padding: 20px 0px;
+  }
+  .content h4,
+  .blog h4 {
+    font-size: 10px;
+  }
+  .content h1,
+  .blog h1,
+  .newsletter h1 {
+    padding: 18px 0px;
+    font-size: 16px;
+  }
+  .content p,
+  .blog p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .content h4 a {
+    padding-top: 40px;
+  }
+  /* **** blog section **** */
+  .blogs {
+    padding: 20px 0px;
+  }
+  .blog-content {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .blog {
+    padding: 20px 0px;
+  }
+  /* **** newsletter **** */
+  .newsletter {
+    padding: 40px 0px;
+    background-color: #f0f0f0;
+  }
+  .form {
+    width: 200px;
+  }
+  /* **** button **** */
+  .btn {
+    text-align: center;
+    padding: 60px 0px;
+  }
+  .btn button {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
+  footer {
+    padding: 20px 0px;
+  }
+  .footer-info ul li a {
+    font-size: 8px;
+    padding: 0px 5px;
+  }
+
+  .footer-middle p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer-right ul li a img {
+    width: 50%;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait),esm,col
+  */
+
+@media (min-width: 320px) and (max-width: 575px) {
+  /* CSS */
+  header {
+    padding: 30px 0;
+  }
+  .logo {
+    width: 50px;
+  }
+  .nav-bar ul li {
+    padding-left: 10px;
+  }
+  .nav-bar ul li a {
+    font-size: 6px;
+  }
+  /* banner */
+  .banner {
+    padding: 20px 0px;
+  }
+  /* **** description section **** */
+  .description {
+    padding: 20px 0px;
+  }
+  .content h4,
+  .blog h4 {
+    font-size: 8px;
+  }
+  .content h1,
+  .blog h1,
+  .newsletter h1 {
+    padding: 18px 0px;
+    font-size: 14px;
+  }
+  .content p,
+  .blog p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .content h4 a {
+    padding-top: 40px;
+  }
+  /* **** blog section **** */
+  .blogs {
+    padding: 20px 0px;
+  }
+  .blog-content {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .blog {
+    padding: 20px 0px;
+  }
+  /* **** newsletter **** */
+  .newsletter {
+    padding: 40px 0px;
+    background-color: #f0f0f0;
+  }
+  .form {
+    width: 200px;
+  }
+  /* **** button **** */
+  .btn {
+    text-align: center;
+    padding: 60px 0px;
+  }
+  .btn button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  footer {
+    padding: 20px 0px;
+  }
+  .footer-info ul li a {
+    font-size: 4px;
+    padding: 0px 1px;
+  }
+  .footer-middle p {
+    font-size: 4px;
+    text-align: center;
+  }
+
+  .footer-right ul li a img {
+    width: 50%;
+  }
+}
